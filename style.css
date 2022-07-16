@@ -1,0 +1,105 @@
+body 
+{
+    background: rgb(0, 162, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form
+{
+    width: 500px;
+    border: 5px solid #ccc;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 500px;
+    
+}
+
+h2
+{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+input
+{
+    display: block;
+    border: 2px solid #ccc;
+    width: 75%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label
+{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button
+{
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button:hover
+{
+    opacity: .7;
+}
+
+.error
+{
+    background: rgb(235, 111, 111);
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+
+}
+
+.nameerror
+{
+
+
+    background: rgb(235, 111, 111);
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    
+
+}
+
+.background-image
+{
+    background-image: url(C:\Users\User\Desktop\back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
